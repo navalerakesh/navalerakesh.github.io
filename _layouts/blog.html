@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+<div class="blog-layout">
+  <div class="blog-main">
+    <div class="blog-header reveal">
+      <h1>{{ page.title }}</h1>
+      {% if page.description %}
+      <p class="blog-description">{{ page.description }}</p>
+      {% endif %}
+    </div>
+
+    <div class="blog-controls reveal" data-blog-controls>
+      <div class="blog-controls-left">
+        <label for="blog-filter-topic">Filter by topic</label>
+        <select id="blog-filter-topic" aria-label="Filter posts by topic">
+          <option value="all">All topics</option>
+          {% assign all_categories = site.categories %}
+          {% for category in all_categories %}
+          <option value="{{ category[0] }}">{{ category[0] }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <div class="blog-controls-right">
+        <label for="blog-sort">Sort</label>
+        <select id="blog-sort" aria-label="Sort posts">
+          <option value="newest">Newest first</option>
+          <option value="oldest">Oldest first</option>
+          <option value="title">Title A–Z</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="posts-list">
+      {% for post in site.posts %}
+      <article class="blog-post-item reveal" data-title="{{ post.title | downcase | escape }}" data-date="{{ post.date | date_to_xmlschema }}" {% if post.categories %}data-category="{{ post.categories | first }}"{% endif %}>
+        <h2 class="post-title-link">
+          <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h2>
+        {% if post.excerpt %}
+        <p class="post-short-desc">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+        {% endif %}
+        <div class="post-meta-line">
+          <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">
+            {{ post.date | date: "%b %-d, %Y" }}
+          </time>
+          {% if post.categories %}
+          <span class="post-meta-separator">•</span>
+          <span class="post-meta-topic">{{ post.categories | first }}</span>
+          {% endif %}
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="blog-sidebar-wrapper reveal">
+    {%- include sidebar.html -%}
+  </div>
+</div>

@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="page-with-sidebar">
+  <div class="page-main">
+    <article class="page">
+      <header class="page-header">
+        <h1 class="page-title">{{ page.title | escape }}</h1>
+      </header>
+
+      <div class="page-content">
+        {{ content }}
+      </div>
+    </article>
+  </div>
+
+  {%- include sidebar.html -%}
+</div>

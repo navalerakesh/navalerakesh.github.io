@@ -1,0 +1,17 @@
+# Main navigation links
+main:
+  - title: "Home"
+    url: /
+  
+  - title: "Blog"
+    url: /blog
+  
+  - title: "Architecture"
+    url: /architecture
+
+  # Temporarily disabled; re-enable when Publications section is ready
+  # - title: "Publications"
+  #   url: /publications
+
+  - title: "About"
+    url: /about

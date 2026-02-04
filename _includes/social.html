@@ -1,0 +1,12 @@
+<ul class="social-media-list">
+  {%- if site.author.github -%}
+    <li><a href="https://github.com/{{ site.author.github | cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg> <span class="username">{{ site.author.github | escape }}</span></a></li>
+  {%- endif -%}
+  {%- if site.author.twitter -%}
+    <li><a href="https://twitter.com/{{ site.author.twitter | cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg> <span class="username">{{ site.author.twitter | escape }}</span></a></li>
+  {%- endif -%}
+  {%- if site.author.linkedin -%}
+    <li><a href="https://linkedin.com/in/{{ site.author.linkedin | cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg> <span class="username">LinkedIn</span></a></li>
+  {%- endif -%}
+  <li><a href="{{ '/feed.xml' | relative_url }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg> <span>RSS</span></a></li>
+</ul>

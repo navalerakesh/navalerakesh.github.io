@@ -1,0 +1,28 @@
+<footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-content">
+      <div class="footer-left">
+        <p class="footer-brand">{{ site.author.name | default: site.title }}</p>
+        <p class="footer-tagline">{{ site.description }}</p>
+      </div>
+      <div class="footer-right">
+        <div class="footer-links">
+          {%- if site.author.email -%}
+            <a href="mailto:{{ site.author.email }}" aria-label="Email">Email</a>
+            <span class="footer-separator">•</span>
+          {%- endif -%}
+          {%- if site.author.github -%}
+            <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GitHub</a>
+            <span class="footer-separator">•</span>
+          {%- endif -%}
+          {%- if site.author.linkedin -%}
+            <a href="https://linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">LinkedIn</a>
+            <span class="footer-separator">•</span>
+          {%- endif -%}
+          <a href="{{ '/feed.xml' | relative_url }}" aria-label="RSS Feed" class="rss-link">RSS Feed</a>
+        </div>
+        <p class="footer-copyright">&copy; {{ 'now' | date: "%Y" }} {{ site.author.name | default: site.title }}. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>

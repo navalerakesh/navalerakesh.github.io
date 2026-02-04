@@ -1,0 +1,85 @@
+# Site settings
+title: Rakesh Navale
+description: >-
+  Technical blog on distributed systems, AI platforms, and software engineering.
+  Sharing insights from building scalable infrastructure and production ML systems.
+# baseurl is empty for user/org GitHub Pages (ranavale.github.io)
+# If this becomes a project page, set to "/repository-name"
+baseurl: ""
+url: "https://ranavale.github.io"
+
+# Author information
+author:
+  name: Rakesh Navale
+  avatar: /assets/images/profile/avatar.jpg
+  email: navale.rakesh@yahoo.com
+  github: ranavale
+  linkedin: rakeshnavale
+
+# Build settings
+theme: minima
+markdown: kramdown
+highlighter: rouge
+
+# Permalinks
+permalink: /blog/:year/:month/:day/:title/
+
+# Pagination
+paginate: 10
+paginate_path: "/blog/page:num/"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Rakesh Navale"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Exclude from processing
+# Note: _inputs directory contains PDFs and should NOT be excluded
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - README.md
+
+# SEO settings
+social:
+  name: Rakesh Navale
+  links:
+    - https://github.com/ranavale
+    - https://www.linkedin.com/in/rakeshnavale
+
+# Show excerpts on homepage
+show_excerpts: true
+
+# Analytics (GA4 and/or Google Tag Manager)
+# For direct GA4, set your measurement ID (format: G-XXXXXXXXXX)
+google_analytics_4: G-WC7CV8C1T3
+
+# Optionally, you can use Google Tag Manager instead or in addition
+# by setting a container ID (format: GTM-XXXXXXX) and creating tags there.
+# google_tag_manager: GTM-XXXXXXX
