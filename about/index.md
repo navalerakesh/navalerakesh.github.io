@@ -13,7 +13,7 @@ I'm passionate about building tools that make developers more productive—from 
 
 - **Email:** [navale.rakesh@yahoo.com](mailto:navale.rakesh@yahoo.com)
 - **LinkedIn:** [linkedin.com/in/rakeshnavale](https://www.linkedin.com/in/rakeshnavale)
-- **GitHub:** [github.com/ranavale](https://github.com/ranavale)
+- **GitHub:** [github.com/navalerakesh](https://github.com/navalerakesh)
 
 ---
 

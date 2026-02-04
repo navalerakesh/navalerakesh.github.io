@@ -241,7 +241,7 @@ Draft: Work in progress on Kubernetes post
 GitHub Pages automatically:
 1. Detects push to main
 2. Runs Jekyll build
-3. Deploys to ranavale.github.io
+3. Deploys to navalerakesh.github.io
 4. Usually completes in 1-3 minutes
 
 ### Manual Verification

@@ -122,7 +122,7 @@ The pattern: optimize responses for AI parsing, not human reading. The
 
 Here's a production-ready GitHub search tool showing the patterns discussed. Below are the core snippets I actually use when building similar tools. You can read these, then jump to the full implementation.
 
-**Full source:** See the complete, up-to-date implementation on GitHub: https://github.com/ranavale/your-mcp-repo/blob/main/github_search_tool.py
+**Full source:** See the complete, up-to-date implementation on GitHub: https://github.com/navalerakesh/your-mcp-repo/blob/main/github_search_tool.py
 
 **1. Logging to STDERR only**
 

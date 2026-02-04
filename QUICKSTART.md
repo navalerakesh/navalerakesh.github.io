@@ -12,7 +12,7 @@ Get your blog up and running in 5 minutes!
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/ranavale/rakeshnavale.github.io.git
+git clone https://github.com/navalerakesh/rakeshnavale.github.io.git
 cd rakeshnavale.github.io
 
 # 2. Install dependencies

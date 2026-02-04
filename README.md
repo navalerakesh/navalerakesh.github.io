@@ -1,7 +1,7 @@
 # Rakesh Navale
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-ranavale.github.io-blue)](https://ranavale.github.io)
-[![GitHub](https://img.shields.io/badge/GitHub-ranavale-black?logo=github)](https://github.com/ranavale)
+[![Portfolio](https://img.shields.io/badge/Portfolio-navalerakesh.github.io-blue)](https://navalerakesh.github.io)
+[![GitHub](https://img.shields.io/badge/GitHub-navalerakesh-black?logo=github)](https://github.com/navalerakesh)
 
 ## 👋 About Me
 
@@ -9,7 +9,7 @@ Senior Software Engineer at Microsoft with 10+ years of experience delivering hi
 
 ## 🌐 Visit My Website
 
-**[ranavale.github.io](https://ranavale.github.io)**
+**[navalerakesh.github.io](https://navalerakesh.github.io)**
 
 Explore my:
 - 📝 **Blog** - Technical articles on distributed systems, AI/ML, and software engineering
@@ -33,8 +33,8 @@ Explore my:
 
 ## 📫 Connect
 
-- Website: [ranavale.github.io/ranavale](https://ranavale.github.io/ranavale)
-- GitHub: [@ranavale](https://github.com/ranavale)
+- Website: [navalerakesh.github.io/navalerakesh](https://navalerakesh.github.io/navalerakesh)
+- GitHub: [@navalerakesh](https://github.com/navalerakesh)
 
 ---
 

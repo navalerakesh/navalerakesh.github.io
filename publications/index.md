@@ -30,12 +30,12 @@ All blog posts are available on the [blog section](/blog) of this site.
 Stay updated with new publications, talks, and technical articles:
 - [RSS Feed](/feed.xml)
 - [Blog](/blog)
-- [GitHub](https://github.com/ranavale) for code contributions
+- [GitHub](https://github.com/navalerakesh) for code contributions
 
 ## Contact
 
 For collaboration opportunities, speaking invitations, or technical discussions:
-- GitHub: [github.com/ranavale](https://github.com/ranavale)
+- GitHub: [github.com/navalerakesh](https://github.com/navalerakesh)
 - LinkedIn: Professional networking
 - Email: Available for professional inquiries
 

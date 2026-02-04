@@ -75,10 +75,10 @@ assets/images/2026/02/my-image.png
 2. **Reference in posts**
 
 ```markdown
-![Alt text](/ranavale/assets/images/2026/02/my-image.png)
+![Alt text](/navalerakesh/assets/images/2026/02/my-image.png)
 ```
 
-Note: Use `/ranavale/` prefix for all asset paths since the site is served from that subdirectory.
+Note: Use `/navalerakesh/` prefix for all asset paths since the site is served from that subdirectory.
 
 3. **Optimize images before adding** (use TinyPNG, ImageOptim, etc.)
 
@@ -115,8 +115,8 @@ Use for detailed topics and technologies:
 
 ```bash
 # Clone repository
-git clone https://github.com/ranavale/ranavale.git
-cd ranavale
+git clone https://github.com/navalerakesh/navalerakesh.git
+cd navalerakesh
 
 # Install dependencies
 bundle install
@@ -131,7 +131,7 @@ bundle exec jekyll serve --drafts
 bundle exec jekyll build
 ```
 
-Visit `http://localhost:4000/ranavale/` to preview your site.
+Visit `http://localhost:4000/navalerakesh/` to preview your site.
 
 ### Troubleshooting
 
@@ -241,7 +241,7 @@ GitHub Pages automatically builds and deploys when you push to the main branch:
 
 1. Push changes to GitHub
 2. GitHub Actions builds the site
-3. Live in 1-3 minutes at `ranavale.github.io/ranavale`
+3. Live in 1-3 minutes at `navalerakesh.github.io/navalerakesh`
 
 ### Manual Build Check
 
@@ -306,7 +306,7 @@ grep -r "keyword" _posts/
 
 ### Images Not Loading
 
-- Use absolute paths with baseurl: `/ranavale/assets/images/file.png`
+- Use absolute paths with baseurl: `/navalerakesh/assets/images/file.png`
 - Check file actually exists in repo
 - Verify image committed to Git
 

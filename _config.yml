@@ -3,17 +3,17 @@ title: Rakesh Navale
 description: >-
   Technical blog on distributed systems, AI platforms, and software engineering.
   Sharing insights from building scalable infrastructure and production ML systems.
-# baseurl is empty for user/org GitHub Pages (ranavale.github.io)
+# baseurl is empty for user/org GitHub Pages (navalerakesh.github.io)
 # If this becomes a project page, set to "/repository-name"
 baseurl: ""
-url: "https://ranavale.github.io"
+url: "https://navalerakesh.github.io"
 
 # Author information
 author:
   name: Rakesh Navale
   avatar: /assets/images/profile/avatar.jpg
   email: navale.rakesh@yahoo.com
-  github: ranavale
+  github: navalerakesh
   linkedin: rakeshnavale
 
 # Build settings
@@ -70,7 +70,7 @@ exclude:
 social:
   name: Rakesh Navale
   links:
-    - https://github.com/ranavale
+    - https://github.com/navalerakesh
     - https://www.linkedin.com/in/rakeshnavale
 
 # Show excerpts on homepage
