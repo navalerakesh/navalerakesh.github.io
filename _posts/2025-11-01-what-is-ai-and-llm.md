@@ -158,3 +158,5 @@ To go deeper, it is worth reading a mix of theory, foundational papers, and prov
 The key takeaway is simple:
 
 > LLMs are powerful, general prediction engines over text. The value you get in practice depends on how well you connect them to the **right data**, design **robust tools and contracts**, and respect the **infrastructure and energy realities** underneath.
+
+---

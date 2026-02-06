@@ -140,3 +140,5 @@ For deeper dives, these resources are widely respected in the distributed system
 - Research papers such as **Amazon’s Dynamo** and **Google’s Spanner** – foundational designs behind many modern key‑value and globally consistent systems.
 
 The details of your stack will differ, but the principles carry over: choose your consistency trade‑offs intentionally, scale stateless compute and partitioned state, design for failure, and make the system observable from the very beginning.
+
+---

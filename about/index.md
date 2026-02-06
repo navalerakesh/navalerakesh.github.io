@@ -11,9 +11,9 @@ I'm passionate about building tools that make developers more productive—from 
 
 ## Get in Touch
 
-- **Email:** [navale.rakesh@yahoo.com](mailto:navale.rakesh@yahoo.com)
-- **LinkedIn:** [linkedin.com/in/rakeshnavale](https://www.linkedin.com/in/rakeshnavale)
-- **GitHub:** [github.com/navalerakesh](https://github.com/navalerakesh)
+- **Email:** [Mail-Me](mailto:navale.rakesh@yahoo.com)
+- **LinkedIn:** [lRakesh Sharad Navale](https://www.linkedin.com/in/rakeshnavale)
+- **GitHub:** [navalerakesh](https://github.com/navalerakesh)
 
 ---
 

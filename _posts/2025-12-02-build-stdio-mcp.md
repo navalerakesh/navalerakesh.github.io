@@ -383,6 +383,3 @@ Start with PyPI or npm depending on your language. Add GitHub Releases for visib
 	[github.com/modelcontextprotocol/csharp-sdk](https://github.com/modelcontextprotocol/csharp-sdk)
 - **VS Code Guide** – How to plug MCP servers into VS Code itself, including config examples and debugging tips.  
 	[code.visualstudio.com/docs/editor/model-context-protocol](https://code.visualstudio.com/docs/editor/model-context-protocol)
-
-
-*Production engineering insights from real AI integrations. Not tutorials. Lessons from working systems.*
