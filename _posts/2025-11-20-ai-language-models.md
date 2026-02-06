@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Language Models: Why Everyone Needs to Understand Them"
-date: 2026-11-01 09:00:00 -0000
+date: 2026-11-20 09:00:00 -0000
 categories: [language-models, architecture]
 tags: [llm, slm, nlp, ai, architecture]
 author: Rakesh Navale

@@ -164,3 +164,5 @@ If you want to go deeper, a few useful entry points are:
 The core idea is straightforward but powerful:
 
 > MCP gives you a standardized, secure way to plug your data and tools into AI assistants. Instead of wiring every integration by hand, you design a protocol‑level contract that can be reused, governed, and evolved as your AI surfaces grow.
+
+---
